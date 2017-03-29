@@ -28039,7 +28039,7 @@
 	                _react2.default.createElement(
 	                    'h1',
 	                    null,
-	                    'React ToDos App'
+	                    'React App'
 	                ),
 	                _react2.default.createElement(_createTodo2.default, { todos: this.state.todos, createTask: this.createTask.bind(this) }),
 	                _react2.default.createElement(_todosList2.default, {

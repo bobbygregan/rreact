@@ -4,11 +4,11 @@ import TodosList from './todos-list';
 
 const todos = [
 {
-    task: 'make React tutorial',
+    task: 'React Project',
     isCompleted: false
 },
 {
-    task: 'eat dinner',
+    task: 'Go to work',
     isCompleted: true
 }
 ];
@@ -25,7 +25,7 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>React ToDos App</h1>
+                <h1>React Project</h1>
                 <CreateTodo todos={this.state.todos} createTask={this.createTask.bind(this)} />
                 <TodosList
                     todos={this.state.todos}
