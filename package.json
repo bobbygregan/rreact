@@ -1,0 +1,26 @@
+{
+  "name": "reactt",
+  "version": "1.0.0",
+  "description": "asd",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbygregan/rreact.git"
+  },
+  "author": "bobby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbygregan/rreact/issues"
+  },
+  "homepage": "https://github.com/bobbygregan/rreact#readme",
+  "dependencies": {
+    "build-bundle": "^2.0.8"
+  },
+  "devDependencies": {
+    "webpack": "^2.1.0-beta.22"
+  }
+}
